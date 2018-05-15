@@ -156,7 +156,11 @@
         font-size: pxMedia(24, desktop);
         font-weight: normal;
         margin: 8px auto;
-        padding: 8px 16px;
+        padding: 16px 16px;
+        max-width: 250px;
+        height: 60px;
+        color: #091D36;
+        text-decoration: none;
     }
 
     .icons {
