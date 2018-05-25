@@ -1,0 +1,26 @@
+@import '../desktop';
+
+&{
+.contant-block {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5em 3.125%;
+}
+.first {
+    background-image: url(https://nataliianechyporenko.github.io/himagro_landing/images/mortar-board.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    min-height: 100vh;
+    &__list {
+        font-size: 1.5em;
+        margin-bottom: 4em;
+    }
+    &__title {
+        text-align: right;
+    }
+}
+}
