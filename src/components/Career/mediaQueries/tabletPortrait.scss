@@ -1,5 +1,5 @@
 @import '../mobile';
-
+&{
 .logo {
     max-width: px(350);
     height: auto;
@@ -67,10 +67,11 @@
 }
 
 .first {
-    background-image: url(/images/mortar-board768x1024.jpg);
+    background-image: url(https://nataliianechyporenko.github.io/himagro_landing/images/mortar-board768x1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     &__list {
         margin-bottom: 0.75em;
     }
+}
 }

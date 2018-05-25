@@ -1,4 +1,5 @@
 @import '../desktop';
+&{
 .contant-block {
     align-items: center;
     display: flex;
@@ -23,7 +24,7 @@
     padding: 4em 0;
 }
 .first {
-    background-image: url(/images/mortar-board.jpg);
+    background-image: url(https://nataliianechyporenko.github.io/himagro_landing/images/mortar-board.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -37,4 +38,5 @@
 .link-btn {
     margin: 1em auto;
     max-width: 250px;
+}
 }

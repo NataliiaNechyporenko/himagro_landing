@@ -1,4 +1,5 @@
 @import '../desktop';
+&{
 .wrapper, .wrapper_1 {
     margin: 0 auto;
     max-width: 1200px;
@@ -15,10 +16,11 @@
     padding: 4em 0;
 }
 .first {
-    background-image: url(/images/mortar-board1024x768.jpg);
+    background-image: url(https://nataliianechyporenko.github.io/himagro_landing/images/mortar-board1024x768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     &__list {
         margin-bottom: 0.75em;
     }
+}
 }
