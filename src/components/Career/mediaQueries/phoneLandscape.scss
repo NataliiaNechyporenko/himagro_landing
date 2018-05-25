@@ -1,5 +1,10 @@
 @import '../mobile';
 
 .first {
-    background: url(../images/mortar-board-mobile-landscape.jpg) no-repeat;
+    background-image: url(/images/mortar-board-768x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__list {
+        margin-bottom: 0.75em;
+    }
 }
